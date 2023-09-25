@@ -3,6 +3,7 @@ import { useState } from 'react';
 //import Card from './components/card/Card.jsx'
 import Info from './components/info/Info.jsx';
 //import Data from './data.json';
+import Unid from './components/uniqueid/Unid.jsx';
 
 
 
@@ -30,7 +31,7 @@ function App() {
   
       <div className="container">
    
-     
+     <Unid/>
    {xtra}
       </div>
   

@@ -5,7 +5,7 @@ const dateYear=date.getFullYear();
 
 
 function Card(props){
- //const {titleText,titleDes}=props;
+ const {titleText,titleDes}=props;
 return(
     <div className='card'>
         
